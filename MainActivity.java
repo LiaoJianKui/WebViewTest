@@ -24,7 +24,7 @@ private WebView mWebView;
             public void onProgressChanged(WebView view, int newProgress) {
                 super.onProgressChanged(view, newProgress);
                 if(newProgress==100){
-                    Toast.makeText(getApplicationContext(),"网页加载完成···",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(),"网页加载完成····",Toast.LENGTH_SHORT).show();
                 }else {
                     Toast.makeText(getApplicationContext(),"正在加载，请稍等!",Toast.LENGTH_SHORT).show();
                 }
